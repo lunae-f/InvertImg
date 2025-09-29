@@ -1,0 +1,6 @@
+services:
+  image_inverter:
+    build: .
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
